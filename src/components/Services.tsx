@@ -1,11 +1,15 @@
-import Icon from "./Icon";
-import { mainServices, moreServices, servicesIntro } from "../data/content";
+import { mainServices } from "../data/content";
+
+import weddingSax from "../assets/wedding_sax.png";
+import partySax from "../assets/party_sax.png";
+import corporateSax from "../assets/corporate_sax.png";
+import djSax from "../assets/dj_sax.png";
 
 const serviceImages: Record<string, string> = {
-  "Wedding Sax": "../assets/wedding_sax.png",
-  "Party Sax": "../assets/party_sax.png",
-  "Corporate Sax": "../assets/corporate_sax.png",
-  "DJ Sax": "../assets/dj_sax.png",
+  "Wedding Sax": weddingSax,
+  "Party Sax": partySax,
+  "Corporate Sax": corporateSax,
+  "DJ Sax": djSax,
 };
 
 export default function Services() {
@@ -25,10 +29,12 @@ export default function Services() {
     <section id="servicii" className="section services">
       <div className="services__heading">
         <p className="services__eyebrow">SERVICIILE MELE</p>
+
         <h2>
           Saxofon live pentru
           <span> orice tip de eveniment</span>
         </h2>
+
         <p>
           Momente muzicale care se adaptează perfect atmosferei, oamenilor și
           stilului evenimentului tău.
@@ -41,7 +47,7 @@ export default function Services() {
             <div
               className="service-card__image"
               style={{
-                backgroundImage: `url("${serviceImages[s.name] || "/images/party_sax.png"}")`,
+                backgroundImage: `url("${serviceImages[s.name] ?? partySax}")`,
               }}
             />
 
@@ -64,22 +70,6 @@ export default function Services() {
           </li>
         ))}
       </ul>
-
-      {/* <div className="services__more">
-        <h3 className="more__h">Experiențe muzicale</h3>
-
-        <ul className="more">
-          {moreServices.map((s) => (
-            <li key={s.title}>
-              <Icon name={s.icon} className="more__icon" />
-              <h4>{s.title}</h4>
-              <p>{s.text}</p>
-            </li>
-          ))}
-        </ul>
-
-        <p className="outro">{servicesIntro.outro}</p>
-      </div> */}
     </section>
   );
 }
