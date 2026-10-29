@@ -2,10 +2,10 @@ import Icon from "./Icon";
 import { mainServices, moreServices, servicesIntro } from "../data/content";
 
 const serviceImages: Record<string, string> = {
-  "Wedding Sax": "/src/assets/wedding_sax.png",
-  "Party Sax": "/src/assets/party_sax.png",
-  "Corporate Sax": "/src/assets/corporate_sax.png",
-  "DJ Sax": "/src/assets/dj_sax.png",
+  "Wedding Sax": "src/assets/wedding_sax.png",
+  "Party Sax": "src/assets/party_sax.png",
+  "Corporate Sax": "src/assets/corporate_sax.png",
+  "DJ Sax": "src/assets/dj_sax.png",
 };
 
 export default function Services() {
