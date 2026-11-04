@@ -57,7 +57,7 @@ export default function Contact() {
           <ul className="contact__list">
             <li>
               <a href={`tel:${site.phone.replace(/\s/g, "")}`}>
-                {+40761673774}
+                {"+40761673774"}
               </a>
             </li>
 

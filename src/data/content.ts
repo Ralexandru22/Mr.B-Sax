@@ -4,17 +4,17 @@ export const site = {
   name: 'Mr B Sax',
   artist: 'Bogdan Roman Alexandru',
   tagline: 'Sound with distinction',
-  phone: '+40 700 000 000', // TODO: număr real
-  whatsapp: '40700000000', // TODO: fără + și fără spații
-  email: 'contact@mrbsax.ro', // TODO: email real
+  phone: '+40761673774', // TODO: număr real
+  whatsapp: '40761673774', // TODO: fără + și fără spații
+  email: 'bogdanroman1983@yahoo.com', // TODO: email real
 }
 
 // TODO: înlocuiește cu paginile reale ale artistului (acum duc la prima pagină a rețelei).
 export const socials = [
-  { id: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/' },
-  { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/' },
+  { id: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/bogdan.roman.31' },
+  { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/mr.bsax?obrf=MTBtcXoxaDNjY2UzZw==' },
   { id: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/' },
-  { id: 'tiktok', label: 'TikTok', href: 'https://www.tiktok.com/' },
+  { id: 'tiktok', label: 'TikTok', href: 'https://www.tiktok.com/@mr.bsax?_r=1&_t=ZN-9B7ohrq7GFC' },
 ] as const
 
 // Textul butoanelor principale. Alternative: 'Rezervă un show', 'Hai să colaborăm', 'Planifică evenimentul', 'Cere disponibilitatea'.
