@@ -13,7 +13,7 @@ export const site = {
 export const socials = [
   { id: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/bogdan.roman.31' },
   { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/mr.bsax?obrf=MTBtcXoxaDNjY2UzZw==' },
-  { id: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/' },
+  { id: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/@bogdanroman8686/shorts' },
   { id: 'tiktok', label: 'TikTok', href: 'https://www.tiktok.com/@mr.bsax?_r=1&_t=ZN-9B7ohrq7GFC' },
 ] as const
 
