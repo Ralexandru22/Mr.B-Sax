@@ -1,19 +1,22 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About'
-import Stats from './components/Stats'
-import Services from './components/Services'
-import LiveShow from './components/LiveShow'
-import Gallery from './components/Gallery'
-import Videos from './components/Videos'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Social from './components/Social'
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Stats from "./components/Stats";
+import Services from "./components/Services";
+import LiveShow from "./components/LiveShow";
+import Gallery from "./components/Gallery";
+import Videos from "./components/Videos";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Social from "./components/Social";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 
 export default function App() {
   return (
     <>
-      <a className="skip" href="#continut">Sari la conținut</a>
+      <a className="skip" href="#continut">
+        Sari la conținut
+      </a>
       <Header />
       <Social className="social--rail" />
       <main id="continut">
@@ -25,8 +28,9 @@ export default function App() {
         <Gallery />
         <Videos />
         <Contact />
+        <WhatsAppFloat />
       </main>
       <Footer />
     </>
-  )
+  );
 }
